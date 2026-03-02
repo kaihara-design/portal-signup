@@ -67,7 +67,7 @@ export default function RolePickerPage() {
                   type="button"
                   onClick={() => setRole(id)}
                   className={cn(
-                    "w-full flex items-center gap-4 px-[17px] py-[17px] rounded-[14px] border text-left transition-all cursor-pointer",
+                    "w-full flex items-center gap-4 px-[17px] py-[17px] rounded-[12px] border text-left transition-all cursor-pointer",
                     selected
                       ? "border-[#4f46e5] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]"
                       : "border-slate-200 bg-white hover:border-[#615fff]/50 hover:bg-slate-50"
@@ -104,7 +104,7 @@ export default function RolePickerPage() {
             disabled={!role}
             onClick={handleContinue}
             className={cn(
-              "w-full py-2.5 rounded-[8px] text-sm font-semibold transition-colors",
+              "w-full py-2.5 rounded-[12px] text-sm font-semibold transition-colors",
               role
                 ? "bg-[#4f46e5] text-white hover:bg-[#4338ca]"
                 : "bg-slate-200 text-[#94a3b8] cursor-not-allowed"

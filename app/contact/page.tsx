@@ -37,7 +37,7 @@ export default function ContactPage() {
           {/* CTA */}
           <a
             href="mailto:contact@centaurlabs.com"
-            className="w-full flex items-center justify-center gap-2 py-2.5 rounded-[8px] bg-[#4f46e5] text-white text-sm font-semibold hover:bg-[#4338ca] btn-shadow transition-colors"
+            className="w-full flex items-center justify-center gap-2 py-2.5 rounded-[12px] bg-[#4f46e5] text-white text-sm font-semibold hover:bg-[#4338ca] btn-shadow transition-colors"
           >
             <Mail className="h-4 w-4" />
             Contact us

@@ -47,7 +47,7 @@ export function FileDropzone({ value, onChange }: FileDropzoneProps) {
   return (
     <div
       className={cn(
-        "flex items-center gap-3 px-4 py-2.5 rounded-[14px] border cursor-pointer transition-colors",
+        "flex items-center gap-3 px-4 py-2.5 rounded-[12px] border cursor-pointer transition-colors",
         dragOver
           ? "border-[#615fff] bg-[#615fff]/5"
           : "border-slate-200 hover:border-[#615fff]/50 hover:bg-slate-50"

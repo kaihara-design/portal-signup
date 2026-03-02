@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 const FIGMA_URL = process.env.NEXT_PUBLIC_FIGMA_URL ?? "";
 
 const inputClass =
-  "w-full px-3.5 py-2.5 rounded-[14px] border border-slate-200 bg-white text-sm text-[#1e293b] placeholder:text-[#94a3b8] focus:outline-none focus:border-[#4f46e5] transition-colors";
+  "w-full px-3.5 py-2.5 rounded-[12px] border border-slate-200 bg-white text-sm text-[#1e293b] placeholder:text-[#94a3b8] focus:outline-none focus:border-[#4f46e5] transition-colors";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -85,7 +85,7 @@ export default function LoginPage() {
 
             <button
               type="submit"
-              className="w-full py-2.5 rounded-[8px] bg-[#4f46e5] text-white text-sm font-semibold hover:bg-[#4338ca] btn-shadow transition-colors"
+              className="w-full py-2.5 rounded-[12px] bg-[#4f46e5] text-white text-sm font-semibold hover:bg-[#4338ca] btn-shadow transition-colors"
             >
               Sign In
             </button>
@@ -103,7 +103,7 @@ export default function LoginPage() {
             <GoogleOAuthButton />
             <button
               type="button"
-              className="w-full flex items-center justify-center gap-3 px-4 py-2.5 rounded-[14px] border border-slate-200 bg-white text-sm font-medium text-[#1e293b] hover:bg-slate-50 transition-colors"
+              className="w-full flex items-center justify-center gap-3 px-4 py-2.5 rounded-[12px] border border-slate-200 bg-white text-sm font-medium text-[#1e293b] hover:bg-slate-50 transition-colors"
             >
               <KeyRound className="h-4 w-4 text-[#62748e]" />
               Sign in with SAML SSO

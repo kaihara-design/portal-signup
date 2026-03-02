@@ -39,7 +39,7 @@ function Field({
 }
 
 const inputClass =
-  "w-full px-3.5 py-2.5 rounded-[14px] border border-slate-200 text-sm text-[#1e293b] placeholder:text-[#94a3b8] bg-white focus:outline-none focus:border-[#4f46e5] transition-colors";
+  "w-full px-3.5 py-2.5 rounded-[12px] border border-slate-200 text-sm text-[#1e293b] placeholder:text-[#94a3b8] bg-white focus:outline-none focus:border-[#4f46e5] transition-colors";
 
 export function AccountStep({ data, onNext, onBack, onGoogleAuth }: AccountStepProps) {
   const [fullName, setFullName] = useState(data.fullName);
@@ -127,7 +127,7 @@ export function AccountStep({ data, onNext, onBack, onGoogleAuth }: AccountStepP
 
         <button
           type="submit"
-          className="w-full py-2.5 rounded-[8px] bg-[#4f46e5] text-white text-sm font-semibold hover:bg-[#4338ca] btn-shadow transition-colors"
+          className="w-full py-2.5 rounded-[12px] bg-[#4f46e5] text-white text-sm font-semibold hover:bg-[#4338ca] btn-shadow transition-colors"
         >
           Continue
         </button>

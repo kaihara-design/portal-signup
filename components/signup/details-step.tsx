@@ -81,7 +81,7 @@ export function DetailsStep({ data, onNext, onBack }: DetailsStepProps) {
 
         <button
           type="submit"
-          className="w-full py-2.5 rounded-[8px] bg-[#4f46e5] text-white text-sm font-semibold hover:bg-[#4338ca] btn-shadow transition-colors"
+          className="w-full py-2.5 rounded-[12px] bg-[#4f46e5] text-white text-sm font-semibold hover:bg-[#4338ca] btn-shadow transition-colors"
         >
           Join the Network
         </button>
