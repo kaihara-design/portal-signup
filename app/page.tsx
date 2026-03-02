@@ -31,7 +31,7 @@ export default function RolePickerPage() {
 
   function handleContinue() {
     if (role === "customer") {
-      window.location.href = "https://go.centaurlabs.com";
+      router.push("/contact");
     } else if (role === "specialist") {
       router.push("/signup");
     }
