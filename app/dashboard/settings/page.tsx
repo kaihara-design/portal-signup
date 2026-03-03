@@ -81,7 +81,7 @@ export default function SettingsPage() {
             </SectionCard>
 
             {/* Profile */}
-            <SectionCard title="Profile">
+            <SectionCard title="Background">
               <Field label="Country">
                 <SingleSelectDropdown
                   options={COUNTRIES.map((c) => ({ value: c, label: c }))}
