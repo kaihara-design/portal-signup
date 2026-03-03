@@ -23,7 +23,7 @@ const NEXT_STEPS = [
   },
 ];
 
-const BADGE_GRADIENT = "linear-gradient(to right, #5a52be, #403c6e)";
+const BADGE_GRADIENT = "linear-gradient(to right, #403aea, #381e9e)";
 
 export function WelcomeStep({ email: _email, fullName: _fullName }: WelcomeStepProps) {
   return (
@@ -38,7 +38,7 @@ export function WelcomeStep({ email: _email, fullName: _fullName }: WelcomeStepP
             </h1>
             <h2
               className="text-lg sm:text-2xl md:text-4xl lg:text-6xl font-bold leading-tight bg-clip-text text-transparent whitespace-nowrap"
-              style={{ backgroundImage: "linear-gradient(to right, #392fae, #403c6e)" }}
+              style={{ backgroundImage: "linear-gradient(to right, #403aea, #381e9e)" }}
             >
               Specialist Network
             </h2>
@@ -46,7 +46,7 @@ export function WelcomeStep({ email: _email, fullName: _fullName }: WelcomeStepP
 
           {/* What happens next */}
           <div className="flex flex-col gap-4">
-            <p className="text-xs font-semibold tracking-widest text-[#737373] uppercase">
+            <p className="text-xs font-semibold tracking-widest text-[#262626] uppercase">
               What happens next
             </p>
             {NEXT_STEPS.map(({ title, text }, i) => (
@@ -58,8 +58,8 @@ export function WelcomeStep({ email: _email, fullName: _fullName }: WelcomeStepP
                   {i + 1}
                 </span>
                 <div>
-                  <p className="text-sm font-semibold text-[#0f172b]">{title}</p>
-                  <p className="text-xs text-[#737373] mt-0.5 leading-relaxed">{text}</p>
+                  <p className="text-sm font-semibold text-[#0a0a0a]">{title}</p>
+                  <p className="text-xs text-[#262626] mt-0.5 leading-relaxed">{text}</p>
                 </div>
               </div>
             ))}

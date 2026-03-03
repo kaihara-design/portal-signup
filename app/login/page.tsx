@@ -111,15 +111,6 @@ export default function LoginPage() {
           </div>
         </div>
 
-        {/* Footer */}
-        <div className="flex justify-center gap-6">
-          <a href="#" className="text-xs text-[#94a3b8] hover:text-[#62748e] transition-colors">
-            Privacy Policy
-          </a>
-          <a href="#" className="text-xs text-[#94a3b8] hover:text-[#62748e] transition-colors">
-            Terms of Service
-          </a>
-        </div>
       </div>
 
       {FIGMA_URL && <FigmaLinkBadge href={FIGMA_URL} />}

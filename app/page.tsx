@@ -122,15 +122,6 @@ export default function RolePickerPage() {
           </p>
         </div>
 
-        {/* Footer */}
-        <div className="flex justify-center gap-6">
-          <a href="#" className="text-xs text-[#62748e] hover:text-slate-700 transition-colors">
-            Privacy Policy
-          </a>
-          <a href="#" className="text-xs text-[#62748e] hover:text-slate-700 transition-colors">
-            Terms of Service
-          </a>
-        </div>
       </div>
 
       {FIGMA_URL && <FigmaLinkBadge href={FIGMA_URL} />}
