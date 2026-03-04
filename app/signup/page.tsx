@@ -10,7 +10,7 @@ import { DetailsStep } from "@/components/signup/details-step";
 import { WelcomeStep } from "@/components/signup/welcome-step";
 import { FigmaLinkBadge } from "@/components/signup/figma-link-badge";
 
-const FIGMA_URL = "https://www.figma.com/design/Kh6wLrgfrPnC11BJx5GRAM/Specialist-Onboarding?node-id=701-18401&t=6SWHt6ZwhAwfuLLr-1";
+const FIGMA_URL = "https://www.figma.com/design/Kh6wLrgfrPnC11BJx5GRAM/Specialist-Onboarding?node-id=853-4813&t=nemm00bhJUTFxQEF-1";
 
 const EMPTY_FORM: SignupFormData = {
   fullName: "",
