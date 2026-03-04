@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, Mail } from "lucide-react";
 import { FigmaLinkBadge } from "@/components/signup/figma-link-badge";
 
-const FIGMA_URL = "https://www.figma.com/design/Kh6wLrgfrPnC11BJx5GRAM/Specialist-Onboarding?node-id=853-4813&t=nemm00bhJUTFxQEF-1";
+const FIGMA_URL = "https://www.figma.com/design/Kh6wLrgfrPnC11BJx5GRAM/Specialist-Onboarding?node-id=701-2048&t=nemm00bhJUTFxQEF-1";
 
 export default function ContactPage() {
   return (

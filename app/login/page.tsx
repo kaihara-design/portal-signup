@@ -7,7 +7,7 @@ import { GoogleOAuthButton } from "@/components/signup/google-oauth-button";
 import { FigmaLinkBadge } from "@/components/signup/figma-link-badge";
 import { cn } from "@/lib/utils";
 
-const FIGMA_URL = "https://www.figma.com/design/Kh6wLrgfrPnC11BJx5GRAM/Specialist-Onboarding?node-id=853-4813&t=nemm00bhJUTFxQEF-1";
+const FIGMA_URL = "https://www.figma.com/design/Kh6wLrgfrPnC11BJx5GRAM/Specialist-Onboarding?node-id=701-2048&t=nemm00bhJUTFxQEF-1";
 
 const inputClass =
   "w-full px-3.5 py-2.5 rounded-[12px] border border-slate-200 bg-white text-sm text-[#1e293b] placeholder:text-[#94a3b8] focus:outline-none focus:border-[#4f46e5] transition-colors";

@@ -6,7 +6,7 @@ import { Building2, WandSparkles } from "lucide-react";
 import { FigmaLinkBadge } from "@/components/signup/figma-link-badge";
 import { cn } from "@/lib/utils";
 
-const FIGMA_URL = "https://www.figma.com/design/Kh6wLrgfrPnC11BJx5GRAM/Specialist-Onboarding?node-id=853-4813&t=nemm00bhJUTFxQEF-1";
+const FIGMA_URL = "https://www.figma.com/design/Kh6wLrgfrPnC11BJx5GRAM/Specialist-Onboarding?node-id=701-2048&t=nemm00bhJUTFxQEF-1";
 
 type Role = "customer" | "specialist";
 
