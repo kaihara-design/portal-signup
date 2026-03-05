@@ -15,7 +15,7 @@ const NEXT_STEPS = [
   },
   {
     title: "Profile review",
-    text: "If a project relevant to your experience becomes available, we'll email you.",
+    text: "Our sourcing team will review your background and experience.",
   },
   {
     title: "Project invitations",
